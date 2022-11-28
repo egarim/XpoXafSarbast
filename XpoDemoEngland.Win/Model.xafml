@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <NavigationItems NavigationStyle="Accordion" ShowImages="False" DefaultChildItemsDisplayStyle="List" />
+  <Options UIType="TabbedMDI" FormStyle="Ribbon" ShowTabImage="False">
+    <LayoutManagerOptions EnableLayoutGroupImages="False" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.2.9.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="21.2.9.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Entity_ListView" Filter="StartsWith([City], 'A')" />
+  </Views>
+</Application>
